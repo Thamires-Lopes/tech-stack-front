@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TeckStackInfoListMock } from 'src/app/mocks/teck-stach-info-list-mock';
+import { TechStackInfoDto } from 'src/app/models/dtos/tech-stack-info.dto';
 
 @Component({
   selector: 'app-tech-stack-list',
@@ -7,22 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechStackListComponent implements OnInit {
 
-  techStackList = [
-    {
-      Name: ".Net",
-      Count: 10
-    },
-    {
-      Name: ".Net",
-      Count: 10
-    },{
-      Name: ".Net",
-      Count: 10
-    },{
-      Name: ".Net",
-      Count: 10
-    }
-  ]
+  techStackList : TechStackInfoDto[] = TeckStackInfoListMock
 
   constructor() { }
 
