@@ -5,7 +5,7 @@
 
 <div class="container">
     <div class="child" *ngFor="let item of techStackList">
-        <p-card>
+        <p-card (click)="redirect(item.id)">
             {{item.nome}}
             <ng-template pTemplate="footer">
                 {{item.quantidade}}
