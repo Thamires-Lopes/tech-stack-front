@@ -1,3 +1,5 @@
+import { ConhecimentoDto } from "./conhecimento.dto";
+
 export class TechStackInfoDto {
     id?: number;
     nome?: string;
@@ -6,4 +8,5 @@ export class TechStackInfoDto {
     detalhes?: string;
     responsaveis?: string;
     dataCriacao?: Date;
+    conhecimentos?: ConhecimentoDto[]
 }
