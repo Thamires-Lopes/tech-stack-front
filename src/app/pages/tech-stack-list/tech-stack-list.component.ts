@@ -7,6 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechStackListComponent implements OnInit {
 
+  techStackList = [
+    {
+      Name: ".Net",
+      Count: 10
+    },
+    {
+      Name: ".Net",
+      Count: 10
+    },{
+      Name: ".Net",
+      Count: 10
+    },{
+      Name: ".Net",
+      Count: 10
+    }
+  ]
+
   constructor() { }
 
   ngOnInit(): void {

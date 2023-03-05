@@ -4,6 +4,7 @@ import { ToolbarModule } from 'primeng/toolbar';
 import { ButtonModule } from 'primeng/button';
 import { MenuModule } from 'primeng/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {CardModule} from 'primeng/card';
 
 import { AppRoutingModule } from './app-routing.module';
 import { BaseComponent } from './pages/base/base.component';
@@ -22,7 +23,8 @@ import { TeamComponent } from './pages/team/team.component';
     ToolbarModule,
     ButtonModule,
     MenuModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [BaseComponent]
