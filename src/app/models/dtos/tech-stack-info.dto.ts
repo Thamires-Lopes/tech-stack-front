@@ -1,5 +1,9 @@
 export class TechStackInfoDto {
     id?: number;
-    name?: string;
-    count?: number;
+    nome?: string;
+    quantidade?: number;
+    area?: string;
+    detalhes?: string;
+    responsaveis?: string;
+    dataCriacao?: Date;
 }
