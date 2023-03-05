@@ -1,10 +1,14 @@
+<div class="container-title ">
+    <h3>Tech Stacks</h3>
+    <p-button icon="pi pi-plus"></p-button>
+</div>
+
 <div class="container">
     <div class="child" *ngFor="let item of techStackList">
         <p-card>
             {{item.Name}}
             <ng-template pTemplate="footer">
                 {{item.Count}}
-
             </ng-template>
         </p-card>
     </div>
