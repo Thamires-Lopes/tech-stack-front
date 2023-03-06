@@ -11,13 +11,17 @@ import { BaseComponent } from './pages/base/base.component';
 import { TechStackListComponent } from './pages/tech-stack-list/tech-stack-list.component';
 import { TeamComponent } from './pages/team/team.component';
 import { TechStackDetailComponent } from './pages/tech-stack-detail/tech-stack-detail.component';
+import { TechStackInfoComponent } from './components/tech-stack-info/tech-stack-info.component';
+import { TechStackAnswersInfoComponent } from './components/tech-stack-answers-info/tech-stack-answers-info.component';
 
 @NgModule({
   declarations: [
     BaseComponent,
     TechStackListComponent,
     TeamComponent,
-    TechStackDetailComponent
+    TechStackDetailComponent,
+    TechStackInfoComponent,
+    TechStackAnswersInfoComponent
   ],
   imports: [
     BrowserModule,

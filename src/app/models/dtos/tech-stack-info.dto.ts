@@ -8,5 +8,6 @@ export class TechStackInfoDto {
     detalhes?: string;
     responsaveis?: string;
     dataCriacao?: Date;
+    dataCriacaoFormatada?: string;
     conhecimentos?: ConhecimentoDto[]
 }

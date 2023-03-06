@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { TeckStackInfoListMock } from 'src/app/mocks/teck-stach-info-list-mock';
+import { TeckStackInfoListMock } from 'src/app/mocks/teck-stach-info-list.mock';
 import { TechStackInfoDto } from 'src/app/models/dtos/tech-stack-info.dto';
 
 @Component({

@@ -9,3 +9,13 @@ h3 {
     color: rgb(87, 85, 85);
     margin-left: 10px;
 }
+
+.simple-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 5px;
+}

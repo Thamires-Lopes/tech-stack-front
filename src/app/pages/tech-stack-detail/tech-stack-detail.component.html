@@ -1,1 +1,6 @@
-<p>tech-stack-detail works!</p>
+<h3>Tech Stack {{techStackInfo.nome}}</h3>
+<div class="container">
+    <app-tech-stack-info [techInfo]="techStackInfo"></app-tech-stack-info>
+    <app-tech-stack-answers-info [techInfo]="techStackInfo"></app-tech-stack-answers-info>
+    <p>Área com as informações em forma de gráfico</p>
+</div>
