@@ -4,7 +4,8 @@ import { ToolbarModule } from 'primeng/toolbar';
 import { ButtonModule } from 'primeng/button';
 import { MenuModule } from 'primeng/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {CardModule} from 'primeng/card';
+import { CardModule } from 'primeng/card';
+import { TabViewModule } from 'primeng/tabview';
 
 import { AppRoutingModule } from './app-routing.module';
 import { BaseComponent } from './pages/base/base.component';
@@ -30,7 +31,8 @@ import { TechStackAnswersInfoComponent } from './components/tech-stack-answers-i
     ButtonModule,
     MenuModule,
     BrowserAnimationsModule,
-    CardModule
+    CardModule,
+    TabViewModule
   ],
   providers: [],
   bootstrap: [BaseComponent]
