@@ -6,6 +6,7 @@ import { MenuModule } from 'primeng/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardModule } from 'primeng/card';
 import { TabViewModule } from 'primeng/tabview';
+import { InputTextModule } from 'primeng/inputtext';
 
 import { AppRoutingModule } from './app-routing.module';
 import { BaseComponent } from './pages/base/base.component';
@@ -14,6 +15,7 @@ import { TeamComponent } from './pages/team/team.component';
 import { TechStackDetailComponent } from './pages/tech-stack-detail/tech-stack-detail.component';
 import { TechStackInfoComponent } from './components/tech-stack-info/tech-stack-info.component';
 import { TechStackAnswersInfoComponent } from './components/tech-stack-answers-info/tech-stack-answers-info.component';
+import { BasicInputComponent } from './components/basic-input/basic-input.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { TechStackAnswersInfoComponent } from './components/tech-stack-answers-i
     TeamComponent,
     TechStackDetailComponent,
     TechStackInfoComponent,
-    TechStackAnswersInfoComponent
+    TechStackAnswersInfoComponent,
+    BasicInputComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,8 @@ import { TechStackAnswersInfoComponent } from './components/tech-stack-answers-i
     MenuModule,
     BrowserAnimationsModule,
     CardModule,
-    TabViewModule
+    TabViewModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [BaseComponent]
