@@ -4,18 +4,18 @@ export enum TipoRelevancia {
     Alta
 };
 
-export const TiposRelevanciaList : {key: number, description: string}[]  = [
+export const TiposRelevanciaList : {value: number, label: string}[]  = [
     {
-        key: TipoRelevancia.Baixa,
-        description: "Baixa"
+        value: TipoRelevancia.Baixa,
+        label: "Baixa"
     },
     {
-        key: TipoRelevancia.Normal,
-        description: "Normal"
+        value: TipoRelevancia.Normal,
+        label: "Normal"
     },
     {
-        key: TipoRelevancia.Alta,
-        description: "Alta"
+        value: TipoRelevancia.Alta,
+        label: "Alta"
     }
 ];
 

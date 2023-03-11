@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardModule } from 'primeng/card';
 import { TabViewModule } from 'primeng/tabview';
 import { InputTextModule } from 'primeng/inputtext';
+import { SelectButtonModule } from 'primeng/selectbutton';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { BaseComponent } from './pages/base/base.component';
@@ -36,7 +38,9 @@ import { BasicInputComponent } from './components/basic-input/basic-input.compon
     BrowserAnimationsModule,
     CardModule,
     TabViewModule,
-    InputTextModule
+    InputTextModule,
+    SelectButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [BaseComponent]

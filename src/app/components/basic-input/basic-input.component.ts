@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { TiposRelevanciaList } from 'src/app/models/enums/tipo-relevancia.enum';
 
 @Component({
   selector: 'app-basic-input',
@@ -8,8 +9,11 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BasicInputComponent implements OnInit {
 
   @Input() title: string = "";
+  @Input() showOptions: boolean = false;
 
-  constructor() { }
+  options: {value: number, label: string}[] = TiposRelevanciaList;
+
+  constructor() {}
 
   ngOnInit(): void {
   }

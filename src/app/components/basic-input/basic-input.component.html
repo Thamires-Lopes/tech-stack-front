@@ -1,5 +1,6 @@
 <h6>{{title}}</h6>
-<div>
+<div class="simple-container">
     <input type="text" pInputText>
+    <p-selectButton class="options" *ngIf="showOptions" [options]="options"></p-selectButton>
     <p-button icon="pi pi-plus"></p-button>
 </div>
