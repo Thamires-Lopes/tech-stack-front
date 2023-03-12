@@ -12,6 +12,7 @@ export class BasicInputComponent implements OnInit {
   @Input() showOptions: boolean = false;
 
   options: {value: number, label: string}[] = TiposRelevanciaList;
+  optionSelected: number = 0;
 
   constructor() {}
 
